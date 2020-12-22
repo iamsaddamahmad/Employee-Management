@@ -69,14 +69,12 @@ namespace EmployeeManagement
             services.AddAuthentication().
                  AddGoogle(options =>
                  {
-                     options.ClientId = "803712869709-0gbtvdio5gu6835ip1rb4jtqgculhl6n.apps.googleusercontent.com";
-                     options.ClientSecret = "5vqncgv-SOjP6CQOYmRfnPW6";
+                     
                      //options.CallbackPath = "";
                  })
                  .AddFacebook(options =>
                  {
-                     options.AppId = "2782063395372954";
-                     options.AppSecret = "dca4ae7bd353096f71495fb9525a6019";
+                     
                  });
 
 
